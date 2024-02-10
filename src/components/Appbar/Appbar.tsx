@@ -8,7 +8,7 @@ const Appbar: React.FC = () => {
         <span className="navbar-brand">Blog</span>
         <ul className="navbar-nav mr-auto flex-nowrap flex-row gap-3">
           <li className="nav-item">
-            <NavLink to="/" className="nav-link">Home</NavLink>
+            <NavLink to="/quotes" className="nav-link">Quotes</NavLink>
           </li>
           <li className="nav-item">
             <NavLink to="/Add" className="nav-link">Add Form</NavLink>
